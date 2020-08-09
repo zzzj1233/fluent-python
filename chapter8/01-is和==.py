@@ -10,7 +10,6 @@ class Testc:
         return True
 
 
-
 t1 = Testc()
 t2 = Testc()
 
@@ -19,5 +18,3 @@ print(t1 is t2)
 
 # True
 print(t1 == t2)
-
-
