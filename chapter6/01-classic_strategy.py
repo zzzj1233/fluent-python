@@ -1,10 +1,9 @@
 """
     使用类实现策略模式
 """
-from abc import abstractclassmethod
 from collections import namedtuple
 
-Customer = namedtuple("Customer", ["name", "link_phone"])
+Customer = namedtuple("Customer", ["name", "integral"])
 
 
 class CartItem:
@@ -33,3 +32,25 @@ class Order:
         return self.promotion.discount(self)
 
 
+class IntegralPromo:
+    def discount(self, order):
+        if order.customer.integral > 1000:
+            return order.total() * 0.05
+        return 0
+
+
+class BulkItemPromo:
+    def discount(self, order):
+        discount = 0
+        for item in order.cart:
+            if item.quantity > 20:
+                discount = discount + order.total() * 0.01
+        return discount
+
+
+class LargeOrderPromo:
+    def discount(self, order):
+        discount = 0
+        if len(order.cart) > 10:
+            discount = order.total() * 0.07
+        return discount
