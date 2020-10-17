@@ -23,27 +23,31 @@ class PokerCard:
     def __len__(self):
         return len(self.cards)
 
+    def __repr__(self):
+        return str(self.cards)
 
-poker_card = PokerCard()
 
-"""
-    {'no': 'O', 'suit': '黑桃'}
-"""
-print(choice(poker_card)._asdict())
+if __name__ == '__main__':
+    poker_card = PokerCard()
 
-poker_card[0] = Card(0, 0)
+    """
+        {'no': 'O', 'suit': '黑桃'}
+    """
+    print(choice(poker_card)._asdict())
 
-"""
-    {'no': 0, 'suit': 0}
-"""
-print(poker_card[0]._asdict())
+    poker_card[0] = Card(0, 0)
 
-del poker_card[0]
+    """
+        {'no': 0, 'suit': 0}
+    """
+    print(poker_card[0]._asdict())
 
-"""
-    after del
-    {'no': 2, 'suit': '红桃'}
-    51
-"""
-print(poker_card[0]._asdict())
-print(len(poker_card))
+    del poker_card[0]
+
+    """
+        after del
+        {'no': 2, 'suit': '红桃'}
+        51
+    """
+    print(poker_card[0]._asdict())
+    print(len(poker_card))
