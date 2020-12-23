@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T04:06:09.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.11 Safari/537.36" version="14.1.1" etag="egW-rKb1G6sVDX1AKYBh" type="github"><diagram id="X5dpKuWygnAA0jNGLA90">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-23T04:53:57.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.11 Safari/537.36" etag="-jpQcjDtb1Tl2k6BrWtr" version="14.1.1" type="github">
+  <diagram id="X5dpKuWygnAA0jNGLA90" name="Page-1">
+    <mxGraphModel dx="2889" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YZ4I5TcnRw2fmJpVWaly-1" target="YZ4I5TcnRw2fmJpVWaly-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-19" value="@Bean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YZ4I5TcnRw2fmJpVWaly-18">
+          <mxGeometry x="0.096" y="-1" relative="1" as="geometry">
+            <mxPoint x="-38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YZ4I5TcnRw2fmJpVWaly-1" target="YZ4I5TcnRw2fmJpVWaly-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-22" value="@Bean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YZ4I5TcnRw2fmJpVWaly-21">
+          <mxGeometry x="0.2258" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YZ4I5TcnRw2fmJpVWaly-1" target="YZ4I5TcnRw2fmJpVWaly-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-1" value="LoadBalancerAutoConfiguration" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;curved=1;" edge="1" parent="1" source="YZ4I5TcnRw2fmJpVWaly-17" target="YZ4I5TcnRw2fmJpVWaly-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-37" value="被添加到resttemplate的拦截器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YZ4I5TcnRw2fmJpVWaly-36">
+          <mxGeometry x="-0.0824" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-41" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;dashed=1;" edge="1" parent="1" source="YZ4I5TcnRw2fmJpVWaly-17" target="YZ4I5TcnRw2fmJpVWaly-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-17" value="LoadBalancerInterceptor" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="YZ4I5TcnRw2fmJpVWaly-20" target="YZ4I5TcnRw2fmJpVWaly-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-32" value="被注入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YZ4I5TcnRw2fmJpVWaly-31">
+          <mxGeometry x="-0.1368" y="1" relative="1" as="geometry">
+            <mxPoint x="-8" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-20" value="RestTemplateCustomizer" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="650" y="320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YZ4I5TcnRw2fmJpVWaly-26" target="YZ4I5TcnRw2fmJpVWaly-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-35" value="spring初始化所有bean后回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YZ4I5TcnRw2fmJpVWaly-34">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-26" value="SmartInitializingSingleton" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-33" value="customizer.customize(restTemplate);" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="570" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-42" value="被注入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#000000;" edge="1" parent="1" source="YZ4I5TcnRw2fmJpVWaly-43" target="YZ4I5TcnRw2fmJpVWaly-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-46" value="属于" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YZ4I5TcnRw2fmJpVWaly-45">
+          <mxGeometry x="0.1263" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-43" value="RestTemplateCustomizer" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="650" y="570" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
