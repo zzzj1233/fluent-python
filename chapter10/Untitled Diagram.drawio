@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T04:53:57.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.11 Safari/537.36" etag="-jpQcjDtb1Tl2k6BrWtr" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T04:56:43.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.11 Safari/537.36" etag="liI89OezSeRX3kvmjkyL" version="14.1.1" type="github">
   <diagram id="X5dpKuWygnAA0jNGLA90" name="Page-1">
     <mxGraphModel dx="2889" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,16 +26,13 @@
         <mxCell id="YZ4I5TcnRw2fmJpVWaly-1" value="LoadBalancerAutoConfiguration" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="260" y="120" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YZ4I5TcnRw2fmJpVWaly-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;curved=1;" edge="1" parent="1" source="YZ4I5TcnRw2fmJpVWaly-17" target="YZ4I5TcnRw2fmJpVWaly-33">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YZ4I5TcnRw2fmJpVWaly-37" value="被添加到resttemplate的拦截器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YZ4I5TcnRw2fmJpVWaly-36">
-          <mxGeometry x="-0.0824" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-41" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;dashed=1;" edge="1" parent="1" source="YZ4I5TcnRw2fmJpVWaly-17" target="YZ4I5TcnRw2fmJpVWaly-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="290" />
+              <mxPoint x="750" y="290" />
+            </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="YZ4I5TcnRw2fmJpVWaly-41" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;dashed=1;" edge="1" parent="1" source="YZ4I5TcnRw2fmJpVWaly-17" target="YZ4I5TcnRw2fmJpVWaly-26">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YZ4I5TcnRw2fmJpVWaly-17" value="LoadBalancerInterceptor" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-140" y="320" width="200" height="60" as="geometry" />
@@ -62,11 +59,14 @@
         <mxCell id="YZ4I5TcnRw2fmJpVWaly-26" value="SmartInitializingSingleton" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="260" y="320" width="200" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;" edge="1" parent="1" source="YZ4I5TcnRw2fmJpVWaly-33" target="YZ4I5TcnRw2fmJpVWaly-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YZ4I5TcnRw2fmJpVWaly-33" value="customizer.customize(restTemplate);" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="250" y="570" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YZ4I5TcnRw2fmJpVWaly-42" value="被注入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="160" y="350" as="geometry" />
+          <mxGeometry x="100" y="290" as="geometry" />
         </mxCell>
         <mxCell id="YZ4I5TcnRw2fmJpVWaly-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#000000;" edge="1" parent="1" source="YZ4I5TcnRw2fmJpVWaly-43" target="YZ4I5TcnRw2fmJpVWaly-20">
           <mxGeometry relative="1" as="geometry" />
@@ -76,8 +76,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZ4I5TcnRw2fmJpVWaly-43" value="RestTemplateCustomizer" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="650" y="570" width="200" height="60" as="geometry" />
+        <mxCell id="YZ4I5TcnRw2fmJpVWaly-43" value="restTemplate.setInterceptors(LoadBalancerInterceptor);" style="rounded=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="650" y="600" width="320" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
